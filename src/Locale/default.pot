@@ -1,0 +1,471 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2015-10-15 18:44+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Controller/IpsController.php:86
+msgid " could not be added to the pool. Maybe it already exists?"
+msgstr ""
+
+#: Controller/IpsController.php:93
+msgid "The IPs have been saved."
+msgstr ""
+
+#: Controller/IpsController.php:117
+msgid "Your maximum amount of IPs has been reached. Please contact your local community."
+msgstr ""
+
+#: Controller/IpsController.php:123
+msgid "There are currently no IPs available"
+msgstr ""
+
+#: Controller/IpsController.php:128
+msgid "The ip has been saved."
+msgstr ""
+
+#: Controller/IpsController.php:130
+msgid "The ip could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/IpsController.php:145
+msgid "The IP is not assigned to you right now and therefor cannot be released."
+msgstr ""
+
+#: Controller/IpsController.php:151
+msgid "The IP has been released."
+msgstr ""
+
+#: Controller/IpsController.php:153
+msgid "The IP could not be released. Please, try again."
+msgstr ""
+
+#: Controller/IpsController.php:174
+msgid "The IP has been saved."
+msgstr ""
+
+#: Controller/IpsController.php:177
+msgid "The IP could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/IpsController.php:196
+msgid "The ip has been deleted."
+msgstr ""
+
+#: Controller/IpsController.php:198
+msgid "The ip could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/UsersController.php:46;62;121
+msgid "The user has been saved."
+msgstr ""
+
+#: Controller/UsersController.php:49;124
+msgid "Unable to add the user."
+msgstr ""
+
+#: Controller/UsersController.php:65
+msgid "The user could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/UsersController.php:78
+msgid "You are not allowed to perform this action!"
+msgstr ""
+
+#: Controller/UsersController.php:86
+msgid "The password has been changed."
+msgstr ""
+
+#: Controller/UsersController.php:89
+msgid "The password could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/UsersController.php:104
+msgid "The profil has been changed."
+msgstr ""
+
+#: Controller/UsersController.php:107
+msgid "The profile could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/UsersController.php:137
+msgid "Invalid username or password, try again"
+msgstr ""
+
+#: Controller/UsersController.php:167
+msgid "The user has been deleted."
+msgstr ""
+
+#: Controller/UsersController.php:169
+msgid "The user could not be deleted. Please, try again."
+msgstr ""
+
+#: Template/Ips/add_range.ctp:1
+msgid "Add IP ranges"
+msgstr ""
+
+#: Template/Ips/add_range.ctp:2
+msgid "Add new IP ranges here."
+msgstr ""
+
+#: Template/Ips/add_range.ctp:8
+msgid "IP Adress range from"
+msgstr ""
+
+#: Template/Ips/add_range.ctp:17
+msgid "to"
+msgstr ""
+
+#: Template/Ips/add_range.ctp:24
+#: Template/Ips/edit.ctp:9
+#: Template/Users/add.ctp:18
+#: Template/Users/edit.ctp:17
+#: Template/Users/edit_profile.ctp:14
+#: Template/Users/register.ctp:17
+#: Template/Users/reset_password.ctp:20
+msgid "Submit"
+msgstr ""
+
+#: Template/Ips/edit.ctp:1
+msgid "Edit description for"
+msgstr ""
+
+#: Template/Ips/edit.ctp:2
+#: Template/Users/edit_profile.ctp:2
+#: Template/Users/profile.ctp:2
+msgid "Maintain your account settings here."
+msgstr ""
+
+#: Template/Ips/edit.ctp:6
+msgid "Enter a description to identify the IP (e.g. Device name)"
+msgstr ""
+
+#: Template/Ips/index.ctp:1
+msgid "IP Administration"
+msgstr ""
+
+#: Template/Ips/index.ctp:2
+msgid "Maintain IP settings here."
+msgstr ""
+
+#: Template/Ips/index.ctp:5
+msgid "Add new IP range"
+msgstr ""
+
+#: Template/Ips/index.ctp:9
+msgid "IPs"
+msgstr ""
+
+#: Template/Ips/index.ctp:15
+#: Template/Users/edit.ctp:24
+#: Template/Users/profile.ctp:17
+msgid "Description"
+msgstr ""
+
+#: Template/Ips/index.ctp:16
+#: Template/Ips/view.ctp:3
+#: Template/Users/edit.ctp:25
+#: Template/Users/index.ctp:17
+#: Template/Users/profile.ctp:18
+#: Template/Users/view.ctp:3;51
+msgid "Actions"
+msgstr ""
+
+#: Template/Ips/index.ctp:23
+msgid "not assigned yet"
+msgstr ""
+
+#: Template/Ips/index.ctp:26
+#: Template/Users/index.ctp:29
+#: Template/Users/view.ctp:64
+msgid "Edit"
+msgstr ""
+
+#: Template/Ips/index.ctp:27
+#: Template/Users/index.ctp:30
+#: Template/Users/view.ctp:66
+msgid "Delete"
+msgstr ""
+
+#: Template/Ips/index.ctp:27
+#: Template/Ips/view.ctp:5
+#: Template/Users/view.ctp:5;66
+msgid "Are you sure you want to delete # {0}?"
+msgstr ""
+
+#: Template/Ips/index.ctp:35
+#: Template/Users/index.ctp:38
+msgid "previous"
+msgstr ""
+
+#: Template/Ips/index.ctp:37
+#: Template/Users/index.ctp:40
+msgid "next"
+msgstr ""
+
+#: Template/Ips/view.ctp:4
+msgid "Edit Ip"
+msgstr ""
+
+#: Template/Ips/view.ctp:5
+msgid "Delete Ip"
+msgstr ""
+
+#: Template/Ips/view.ctp:6
+#: Template/Users/view.ctp:8
+msgid "List Ips"
+msgstr ""
+
+#: Template/Ips/view.ctp:7
+#: Template/Users/view.ctp:9
+msgid "New Ip"
+msgstr ""
+
+#: Template/Ips/view.ctp:8
+#: Template/Users/view.ctp:6
+msgid "List Users"
+msgstr ""
+
+#: Template/Ips/view.ctp:9
+#: Template/Users/index.ctp:5
+#: Template/Users/view.ctp:7
+msgid "New User"
+msgstr ""
+
+#: Template/Ips/view.ctp:16
+msgid "User"
+msgstr ""
+
+#: Template/Ips/view.ctp:20
+#: Template/Users/view.ctp:28;45
+msgid "Id"
+msgstr ""
+
+#: Template/Ips/view.ctp:24
+#: Template/Users/view.ctp:46
+msgid "Net A"
+msgstr ""
+
+#: Template/Ips/view.ctp:28
+#: Template/Users/view.ctp:47
+msgid "Net B"
+msgstr ""
+
+#: Template/Ips/view.ctp:32
+#: Template/Users/view.ctp:48
+msgid "Net C"
+msgstr ""
+
+#: Template/Ips/view.ctp:36
+#: Template/Users/view.ctp:49
+msgid "Net D"
+msgstr ""
+
+#: Template/Layout/default.ctp:54
+msgid "Your profile"
+msgstr ""
+
+#: Template/Users/add.ctp:1
+msgid "Add user"
+msgstr ""
+
+#: Template/Users/add.ctp:4
+#: Template/Users/edit.ctp:5
+#: Template/Users/reset_password.ctp:6
+msgid "Back to index"
+msgstr ""
+
+#: Template/Users/add.ctp:10
+msgid "Add User"
+msgstr ""
+
+#: Template/Users/add.ctp:15
+#: Template/Users/register.ctp:14
+#: Template/Users/reset_password.ctp:16
+msgid "Confirm password"
+msgstr ""
+
+#: Template/Users/edit.ctp:1
+msgid "Edit user"
+msgstr ""
+
+#: Template/Users/edit.ctp:2
+msgid "Maintain account settings here."
+msgstr ""
+
+#: Template/Users/edit.ctp:11
+#: Template/Users/login.ctp:10
+#: Template/Users/register.ctp:11
+msgid "Email address"
+msgstr ""
+
+#: Template/Users/edit.ctp:23
+#: Template/Users/profile.ctp:16
+msgid "Freifunk IP"
+msgstr ""
+
+#: Template/Users/edit.ctp:32
+#: Template/Users/profile.ctp:25
+msgid "Edit Description"
+msgstr ""
+
+#: Template/Users/edit.ctp:33
+#: Template/Users/profile.ctp:26
+msgid "Release IP"
+msgstr ""
+
+#: Template/Users/edit.ctp:33
+#: Template/Users/profile.ctp:26
+msgid "Are you sure you want to release {0}?"
+msgstr ""
+
+#: Template/Users/edit_profile.ctp:1
+#: Template/Users/profile.ctp:8
+msgid "Edit your profile"
+msgstr ""
+
+#: Template/Users/edit_profile.ctp:5
+#: Template/Users/reset_password.ctp:8
+msgid "Back to profile"
+msgstr ""
+
+#: Template/Users/index.ctp:1
+msgid "User Administration"
+msgstr ""
+
+#: Template/Users/index.ctp:2
+msgid "Maintain user settings here."
+msgstr ""
+
+#: Template/Users/index.ctp:9
+msgid "Users"
+msgstr ""
+
+#: Template/Users/index.ctp:28
+#: Template/Users/reset_password.ctp:1
+msgid "Reset password"
+msgstr ""
+
+#: Template/Users/index.ctp:30
+msgid "Are you sure you want to delete {0}?"
+msgstr ""
+
+#: Template/Users/login.ctp:2
+msgid "Welcome"
+msgstr ""
+
+#: Template/Users/login.ctp:3
+msgid "Please log in."
+msgstr ""
+
+#: Template/Users/login.ctp:8
+msgid "Please enter your email address and password"
+msgstr ""
+
+#: Template/Users/login.ctp:16
+msgid "Login"
+msgstr ""
+
+#: Template/Users/login.ctp:18
+msgid "You don't have an account yet?"
+msgstr ""
+
+#: Template/Users/login.ctp:18
+msgid "Register here"
+msgstr ""
+
+#: Template/Users/profile.ctp:1
+msgid "Your Profile"
+msgstr ""
+
+#: Template/Users/profile.ctp:7
+msgid "Change password"
+msgstr ""
+
+#: Template/Users/profile.ctp:12
+msgid "Your IPs"
+msgstr ""
+
+#: Template/Users/profile.ctp:33
+msgid "Get an IP"
+msgstr ""
+
+#: Template/Users/register.ctp:1
+msgid "Create account"
+msgstr ""
+
+#: Template/Users/register.ctp:2
+msgid "Create your user profile"
+msgstr ""
+
+#: Template/Users/register.ctp:5
+msgid "Back to login"
+msgstr ""
+
+#: Template/Users/reset_password.ctp:2
+msgid "Create a new password for {0}"
+msgstr ""
+
+#: Template/Users/view.ctp:4
+msgid "Edit User"
+msgstr ""
+
+#: Template/Users/view.ctp:5
+msgid "Delete User"
+msgstr ""
+
+#: Template/Users/view.ctp:16
+msgid "Username"
+msgstr ""
+
+#: Template/Users/view.ctp:20
+msgid "Password"
+msgstr ""
+
+#: Template/Users/view.ctp:24
+msgid "Role"
+msgstr ""
+
+#: Template/Users/view.ctp:32
+msgid "Created"
+msgstr ""
+
+#: Template/Users/view.ctp:36
+msgid "Modified"
+msgstr ""
+
+#: Template/Users/view.ctp:41
+msgid "Related Ips"
+msgstr ""
+
+#: Template/Users/view.ctp:50
+msgid "User Id"
+msgstr ""
+
+#: Template/Users/view.ctp:62
+msgid "View"
+msgstr ""
+
+#: Template/Error/error400.ctp:33
+#: Template/Error/error500.ctp:35
+msgid "Error"
+msgstr ""
+
+#: Template/Error/error400.ctp:35
+msgid "The requested address %s was not found on this server."
+msgstr ""
+
+#: Template/Error/error500.ctp:33
+msgid "An Internal Error Has Occurred"
+msgstr ""
+
