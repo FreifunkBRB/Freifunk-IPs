@@ -1,0 +1,24 @@
+2015-10-05 17:59:58 Error: [Cake\Core\Exception\MissingPluginException] Plugin Users could not be found.
+Exception Attributes: array (
+  'plugin' => 'Users',
+)
+Stack Trace:
+#0 C:\xampp_5.6\htdocs\ff-ips\config\bootstrap.php(198): Cake\Core\Plugin::load('Users', Array)
+#1 C:\xampp_5.6\htdocs\ff-ips\bin\cake.php(31): include('C:\\xampp_5.6\\ht...')
+#2 {main}
+
+
+2015-10-05 18:09:15 Error: [Cake\Core\Exception\MissingPluginException] Plugin Users could not be found.
+Exception Attributes: array (
+  'plugin' => 'Users',
+)
+Stack Trace:
+#0 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Console\Shell.php(422): Cake\Core\Plugin::load('Users')
+#1 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(95): Cake\Console\Shell->runCommand(Array, true, Array)
+#2 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(212): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#3 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#4 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#5 C:\xampp_5.6\htdocs\ff-ips\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#6 {main}
+
+

@@ -1,0 +1,1434 @@
+2015-10-05 17:57:44 Error: [Cake\Core\Exception\MissingPluginException] Plugin Users could not be found.
+Exception Attributes: array (
+  'plugin' => 'Users',
+)
+Stack Trace:
+#0 C:\xampp_5.6\htdocs\ff-ips\config\bootstrap.php(199): Cake\Core\Plugin::load('Users', Array)
+#1 C:\xampp_5.6\htdocs\ff-ips\webroot\index.php(27): require('C:\\xampp_5.6\\ht...')
+#2 {main}
+
+
+2015-10-05 17:58:24 Error: [Cake\Core\Exception\MissingPluginException] Plugin Users could not be found.
+Exception Attributes: array (
+  'plugin' => 'Users',
+)
+Stack Trace:
+#0 C:\xampp_5.6\htdocs\ff-ips\config\bootstrap.php(198): Cake\Core\Plugin::load('Users', Array)
+#1 C:\xampp_5.6\htdocs\ff-ips\webroot\index.php(27): require('C:\\xampp_5.6\\ht...')
+#2 {main}
+
+
+2015-10-05 18:06:52 Error: [Cake\Core\Exception\MissingPluginException] Plugin CakeDC/Users could not be found.
+Exception Attributes: array (
+  'plugin' => 'CakeDC/Users',
+)
+Stack Trace:
+#0 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Core\Configure\FileConfigTrait.php(51): Cake\Core\Plugin::configPath('CakeDC/Users')
+#1 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Core\Configure\Engine\PhpConfig.php(70): Cake\Core\Configure\Engine\PhpConfig->_getFilePath('CakeDC/Users.us...', true)
+#2 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Core\Configure.php(265): Cake\Core\Configure\Engine\PhpConfig->read('CakeDC/Users.us...')
+#3 C:\xampp_5.6\htdocs\ff-ips\plugins\users\config\bootstrap.php(14): Cake\Core\Configure::load('CakeDC/Users.us...')
+#4 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Core\Plugin.php(388): include('C:\\xampp_5.6\\ht...')
+#5 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Core\Plugin.php(314): Cake\Core\Plugin::_includeFile('C:\\xampp_5.6\\ht...', false)
+#6 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Core\Plugin.php(174): Cake\Core\Plugin::bootstrap('Users')
+#7 C:\xampp_5.6\htdocs\ff-ips\config\bootstrap.php(198): Cake\Core\Plugin::load('Users', Array)
+#8 C:\xampp_5.6\htdocs\ff-ips\webroot\index.php(27): require('C:\\xampp_5.6\\ht...')
+#9 {main}
+
+
+2015-10-05 18:07:36 Error: [Cake\Core\Exception\MissingPluginException] Plugin Users could not be found.
+Exception Attributes: array (
+  'plugin' => 'Users',
+)
+Stack Trace:
+#0 C:\xampp_5.6\htdocs\ff-ips\config\bootstrap.php(198): Cake\Core\Plugin::load('Users', Array)
+#1 C:\xampp_5.6\htdocs\ff-ips\webroot\index.php(27): require('C:\\xampp_5.6\\ht...')
+#2 {main}
+
+
+2015-10-05 18:14:53 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Users could not be found.
+Exception Attributes: array (
+  'class' => 'Users',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /ff-ips/users
+Stack Trace:
+#0 C:\xampp_5.6\htdocs\ff-ips\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-05 18:16:08 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Users could not be found.
+Exception Attributes: array (
+  'class' => 'Users',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /ff-ips/users
+Stack Trace:
+#0 C:\xampp_5.6\htdocs\ff-ips\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-05 18:25:00 Error: Fatal Error (1): Class 'Opauth\Opauth\Opauth' not found in [C:\xampp_5.6\htdocs\ff-ips\vendor\cakedc\users\src\Auth\Factory\OpauthFactory.php, line 33]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-10-05 18:25:00 Error: [Cake\Error\FatalErrorException] Class 'Opauth\Opauth\Opauth' not found
+Request URL: /ff-ips/auth/facebook
+Stack Trace:
+#0 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Opauth\\O...', 'C:\\xampp_5.6\\ht...', 33)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-10-05 18:32:01 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2015-10-05 18:32:11 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Users could not be found.
+Exception Attributes: array (
+  'class' => 'Users',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /ff-ips/users
+Stack Trace:
+#0 C:\xampp_5.6\htdocs\ff-ips\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-05 18:33:09 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Edit could not be found.
+Exception Attributes: array (
+  'class' => 'Edit',
+  'plugin' => 'CakeDC/Users',
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /ff-ips/users/edit
+Stack Trace:
+#0 C:\xampp_5.6\htdocs\ff-ips\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-05 18:33:25 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2015-10-05 18:33:35 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2015-10-05 18:33:48 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2015-10-05 18:34:02 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Accounts could not be found.
+Exception Attributes: array (
+  'class' => 'Accounts',
+  'plugin' => 'CakeDC/Users',
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /ff-ips/users/accounts
+Stack Trace:
+#0 C:\xampp_5.6\htdocs\ff-ips\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-05 18:37:48 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2015-10-05 18:54:42 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2015-10-05 18:55:04 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2015-10-06 05:44:35 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2015-10-06 05:45:31 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2015-10-06 14:58:42 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2015-10-06 15:11:00 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2015-10-06 15:11:00 Error: [PDOException] SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (utf8_general_ci,IMPLICIT) and (utf8_unicode_ci,IMPLICIT) for operation '='
+Request URL: /ips
+Stack Trace:
+#0 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Connection.php(270): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Query.php(174): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\ORM\Query.php(871): Cake\Database\Query->execute()
+#6 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(216): Cake\ORM\Query->_execute()
+#7 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\ORM\Query.php(822): Cake\ORM\Query->_all()
+#8 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php(172): Cake\ORM\Query->all()
+#9 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Controller\Controller.php(675): Cake\Controller\Component\PaginatorComponent->paginate(Object(App\Model\Table\IpsTable), Array)
+#10 C:\xampp_5.6\htdocs\ff-ips\src\Controller\IpsController.php(24): Cake\Controller\Controller->paginate(Object(App\Model\Table\IpsTable))
+#11 [internal function]: App\Controller\IpsController->index()
+#12 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Controller\Controller.php(416): call_user_func_array(Array, Array)
+#13 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#14 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\IpsController))
+#15 C:\xampp_5.6\htdocs\ff-ips\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#16 {main}
+
+
+2015-10-06 15:11:53 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2015-10-06 15:11:53 Error: [PDOException] SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (utf8_general_ci,IMPLICIT) and (utf8_unicode_ci,IMPLICIT) for operation '='
+Request URL: /ips
+Stack Trace:
+#0 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Connection.php(270): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Query.php(174): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\ORM\Query.php(871): Cake\Database\Query->execute()
+#6 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(216): Cake\ORM\Query->_execute()
+#7 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\ORM\Query.php(822): Cake\ORM\Query->_all()
+#8 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php(172): Cake\ORM\Query->all()
+#9 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Controller\Controller.php(675): Cake\Controller\Component\PaginatorComponent->paginate(Object(App\Model\Table\IpsTable), Array)
+#10 C:\xampp_5.6\htdocs\ff-ips\src\Controller\IpsController.php(24): Cake\Controller\Controller->paginate(Object(App\Model\Table\IpsTable))
+#11 [internal function]: App\Controller\IpsController->index()
+#12 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Controller\Controller.php(416): call_user_func_array(Array, Array)
+#13 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#14 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\IpsController))
+#15 C:\xampp_5.6\htdocs\ff-ips\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#16 {main}
+
+
+2015-10-06 15:13:11 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2015-10-06 15:13:37 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2015-10-06 15:14:28 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2015-10-06 15:14:28 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2015-10-06 15:15:52 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Users could not be found.
+Exception Attributes: array (
+  'class' => 'Users',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /users
+Stack Trace:
+#0 C:\xampp_5.6\htdocs\ff-ips\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-06 15:16:08 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2015-10-06 15:16:47 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2015-10-06 15:18:57 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2015-10-06 15:21:44 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2015-10-06 15:21:50 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2015-10-06 15:23:26 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2015-10-06 15:29:13 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2015-10-09 18:10:30 Error: [Cake\View\Exception\MissingTemplateException] Template file "Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\index.ctp',
+)
+Request URL: /users/index
+Stack Trace:
+#0 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\View\View.php(575): Cake\View\View->_getViewFileName(NULL)
+#1 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Controller\Controller.php(598): Cake\View\View->render(NULL, NULL)
+#2 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#4 C:\xampp_5.6\htdocs\ff-ips\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2015-10-09 18:12:07 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::profile() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'profile',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /users/profile
+Stack Trace:
+#0 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#2 C:\xampp_5.6\htdocs\ff-ips\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-10-09 18:19:30 Error: Fatal Error (1): Call to undefined method App\Model\Entity\User::contain() in [C:\xampp_5.6\htdocs\ff-ips\src\Controller\UsersController.php, line 69]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-10-09 18:19:30 Error: [Cake\Error\FatalErrorException] Call to undefined method App\Model\Entity\User::contain()
+Request URL: /users/profile
+Stack Trace:
+#0 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp_5.6\\ht...', 69)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-10-09 18:22:19 Error: Fatal Error (1): Class 'App\Controller\TableRegistry' not found in [C:\xampp_5.6\htdocs\ff-ips\src\Controller\UsersController.php, line 69]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-10-09 18:22:19 Error: [Cake\Error\FatalErrorException] Class 'App\Controller\TableRegistry' not found
+Request URL: /users/profile
+Stack Trace:
+#0 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'App\\Cont...', 'C:\\xampp_5.6\\ht...', 69)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-10-09 18:25:22 Error: Fatal Error (1): Class 'App\Model\Table\TableRegistry' not found in [C:\xampp_5.6\htdocs\ff-ips\src\Model\Table\UsersTable.php, line 25]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-10-09 18:25:22 Error: [Cake\Error\FatalErrorException] Class 'App\Model\Table\TableRegistry' not found
+Request URL: /users/profile
+Stack Trace:
+#0 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'App\\Mode...', 'C:\\xampp_5.6\\ht...', 25)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-10-09 18:26:37 Error: Fatal Error (1): Class 'App\Model\Table\TableRegistry' not found in [C:\xampp_5.6\htdocs\ff-ips\src\Model\Table\UsersTable.php, line 26]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-10-09 18:26:37 Error: [Cake\Error\FatalErrorException] Class 'App\Model\Table\TableRegistry' not found
+Request URL: /users/profile
+Stack Trace:
+#0 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'App\\Mode...', 'C:\\xampp_5.6\\ht...', 26)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-10-09 18:28:10 Error: [BadMethodCallException] Unknown finder method "first"
+Request URL: /users/profile
+Stack Trace:
+#0 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\ORM\Table.php(933): Cake\ORM\Table->callFinder('first', Object(Cake\ORM\Query), Array)
+#1 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\ORM\Table.php(1829): Cake\ORM\Table->find('first', Array)
+#2 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\ORM\Table.php(1849): Cake\ORM\Table->_dynamicFinder('findFirstById', Array)
+#3 C:\xampp_5.6\htdocs\ff-ips\src\Model\Table\UsersTable.php(28): Cake\ORM\Table->__call('findFirstById', Array)
+#4 C:\xampp_5.6\htdocs\ff-ips\src\Model\Table\UsersTable.php(28): App\Model\Table\UsersTable->findFirstById(1)
+#5 C:\xampp_5.6\htdocs\ff-ips\src\Controller\UsersController.php(69): App\Model\Table\UsersTable->findProfile(1)
+#6 [internal function]: App\Controller\UsersController->profile()
+#7 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Controller\Controller.php(416): call_user_func_array(Array, Array)
+#8 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#9 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#10 C:\xampp_5.6\htdocs\ff-ips\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#11 {main}
+
+
+2015-10-09 18:28:31 Error: Fatal Error (1): __debuginfo() must return an array in [C:\xampp_5.6\htdocs\ff-ips\src\Template\Users\profile.ctp, line 3]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-10-09 18:28:31 Error: [Cake\Error\FatalErrorException] __debuginfo() must return an array
+Request URL: /users/profile
+Stack Trace:
+#0 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, '__debuginfo() m...', 'C:\\xampp_5.6\\ht...', 3)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-10-09 18:29:05 Error: Fatal Error (1): __debuginfo() must return an array in [C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Core\functions.php, line 3]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-10-09 18:29:05 Error: [Cake\Error\FatalErrorException] __debuginfo() must return an array
+Request URL: /users/profile
+Stack Trace:
+#0 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, '__debuginfo() m...', 'C:\\xampp_5.6\\ht...', 3)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-10-09 18:36:08 Error: [BadMethodCallException] Unknown finder method "first"
+Request URL: /users/profile
+Stack Trace:
+#0 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\ORM\Table.php(933): Cake\ORM\Table->callFinder('first', Object(Cake\ORM\Query), Array)
+#1 C:\xampp_5.6\htdocs\ff-ips\src\Controller\UsersController.php(69): Cake\ORM\Table->find('first', Array)
+#2 [internal function]: App\Controller\UsersController->profile()
+#3 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Controller\Controller.php(416): call_user_func_array(Array, Array)
+#4 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#6 C:\xampp_5.6\htdocs\ff-ips\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2015-10-09 18:39:24 Error: Fatal Error (1): __debuginfo() must return an array in [C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Core\functions.php, line 3]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-10-09 18:39:24 Error: [Cake\Error\FatalErrorException] __debuginfo() must return an array
+Request URL: /users/profile
+Stack Trace:
+#0 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, '__debuginfo() m...', 'C:\\xampp_5.6\\ht...', 3)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-10-09 18:40:37 Error: [InvalidArgumentException] Users is not associated with Ips
+Request URL: /users/profile
+Stack Trace:
+#0 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(235): Cake\ORM\EagerLoader->_normalizeContain(Object(App\Model\Table\UsersTable), 'Ips', Array, Array)
+#1 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(343): Cake\ORM\EagerLoader->normalized(Object(App\Model\Table\UsersTable))
+#2 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(322): Cake\ORM\EagerLoader->attachableAssociations(Object(App\Model\Table\UsersTable))
+#3 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\ORM\Query.php(896): Cake\ORM\EagerLoader->attachAssociations(Object(Cake\ORM\Query), Object(App\Model\Table\UsersTable), false)
+#4 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\ORM\Query.php(852): Cake\ORM\Query->_transformQuery()
+#5 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(120): Cake\ORM\Query->sql()
+#6 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Connection.php(216): Cake\Database\Driver\Mysql->prepare(Object(Cake\ORM\Query))
+#7 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Connection.php(268): Cake\Database\Connection->prepare(Object(Cake\ORM\Query))
+#8 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Query.php(174): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#9 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\ORM\Query.php(871): Cake\Database\Query->execute()
+#10 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(216): Cake\ORM\Query->_execute()
+#11 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\ORM\Query.php(822): Cake\ORM\Query->_all()
+#12 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(232): Cake\ORM\Query->all()
+#13 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\debug_kit\src\Panel\VariablesPanel.php(76): Cake\ORM\Query->toArray()
+#14 [internal function]: DebugKit\Panel\VariablesPanel->DebugKit\Panel\{closure}(Object(Cake\ORM\Query), 'user')
+#15 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\debug_kit\src\Panel\VariablesPanel.php(102): array_walk_recursive(Array, Object(Closure))
+#16 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Event\EventManager.php(385): DebugKit\Panel\VariablesPanel->shutdown(Object(Cake\Event\Event))
+#17 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Event\EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#18 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#19 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Controller\Controller.php(499): Cake\Controller\Controller->dispatchEvent('Controller.shut...')
+#20 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(125): Cake\Controller\Controller->shutdownProcess()
+#21 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#22 C:\xampp_5.6\htdocs\ff-ips\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#23 {main}
+
+
+2015-10-09 18:57:45 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::edit() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'edit',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /users/edit/1
+Stack Trace:
+#0 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#2 C:\xampp_5.6\htdocs\ff-ips\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-10-09 19:10:39 Error: Fatal Error (1): Call to undefined function App\Controller\find() in [C:\xampp_5.6\htdocs\ff-ips\src\Controller\IpsController.php, line 74]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-10-09 19:10:39 Error: [Cake\Error\FatalErrorException] Call to undefined function App\Controller\find()
+Request URL: /ips/request
+Stack Trace:
+#0 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp_5.6\\ht...', 74)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-10-09 19:11:07 Error: Fatal Error (1): Call to undefined method App\Controller\IpsController::Auth() in [C:\xampp_5.6\htdocs\ff-ips\src\Controller\IpsController.php, line 75]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-10-09 19:11:08 Error: [Cake\Error\FatalErrorException] Call to undefined method App\Controller\IpsController::Auth()
+Request URL: /ips/request
+Stack Trace:
+#0 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp_5.6\\ht...', 75)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-10-09 19:12:54 Warning: Warning (2): Creating default object from empty value in [C:\xampp_5.6\htdocs\ff-ips\src\Controller\IpsController.php, line 75]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\IpsController::request() - APP/Controller\IpsController.php, line 75
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 416
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-10-09 19:12:54 Warning: Warning (4096): Argument 1 passed to Cake\ORM\Table::save() must implement interface Cake\Datasource\EntityInterface, instance of stdClass given, called in C:\xampp_5.6\htdocs\ff-ips\src\Controller\IpsController.php on line 76 and defined in [C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\ORM\Table.php, line 1356]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\ORM\Table::save() - CORE\src\ORM\Table.php, line 1356
+App\Controller\IpsController::request() - APP/Controller\IpsController.php, line 76
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 416
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-10-09 19:12:54 Error: Fatal Error (1): Call to undefined method stdClass::errors() in [C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\ORM\Table.php, line 1366]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-10-09 19:12:54 Error: [Cake\Error\FatalErrorException] Call to undefined method stdClass::errors()
+Request URL: /ips/request
+Stack Trace:
+#0 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp_5.6\\ht...', 1366)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-10-09 19:21:23 Warning: Warning (2): Creating default object from empty value in [C:\xampp_5.6\htdocs\ff-ips\src\Controller\IpsController.php, line 75]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\IpsController::request() - APP/Controller\IpsController.php, line 75
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 416
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-10-09 19:21:23 Warning: Warning (4096): Argument 1 passed to Cake\ORM\Table::save() must implement interface Cake\Datasource\EntityInterface, instance of stdClass given, called in C:\xampp_5.6\htdocs\ff-ips\src\Controller\IpsController.php on line 76 and defined in [C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\ORM\Table.php, line 1356]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\ORM\Table::save() - CORE\src\ORM\Table.php, line 1356
+App\Controller\IpsController::request() - APP/Controller\IpsController.php, line 76
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 416
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-10-09 19:21:23 Error: Fatal Error (1): Call to undefined method stdClass::errors() in [C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\ORM\Table.php, line 1366]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-10-09 19:21:23 Error: [Cake\Error\FatalErrorException] Call to undefined method stdClass::errors()
+Request URL: /ips/request
+Stack Trace:
+#0 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp_5.6\\ht...', 1366)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-10-09 19:23:32 Warning: Warning (2): Creating default object from empty value in [C:\xampp_5.6\htdocs\ff-ips\src\Controller\IpsController.php, line 76]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\IpsController::request() - APP/Controller\IpsController.php, line 76
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 416
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-10-09 19:23:32 Warning: Warning (4096): Argument 1 passed to Cake\ORM\Table::save() must implement interface Cake\Datasource\EntityInterface, instance of stdClass given, called in C:\xampp_5.6\htdocs\ff-ips\src\Controller\IpsController.php on line 77 and defined in [C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\ORM\Table.php, line 1356]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\ORM\Table::save() - CORE\src\ORM\Table.php, line 1356
+App\Controller\IpsController::request() - APP/Controller\IpsController.php, line 77
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 416
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-10-09 19:23:32 Error: Fatal Error (1): Call to undefined method stdClass::errors() in [C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\ORM\Table.php, line 1366]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-10-09 19:23:32 Error: [Cake\Error\FatalErrorException] Call to undefined method stdClass::errors()
+Request URL: /ips/request
+Stack Trace:
+#0 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp_5.6\\ht...', 1366)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-10-09 19:24:30 Warning: Warning (2): Creating default object from empty value in [C:\xampp_5.6\htdocs\ff-ips\src\Controller\IpsController.php, line 76]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\IpsController::request() - APP/Controller\IpsController.php, line 76
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 416
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-10-09 19:24:30 Warning: Warning (4096): Argument 1 passed to Cake\ORM\Table::save() must implement interface Cake\Datasource\EntityInterface, instance of stdClass given, called in C:\xampp_5.6\htdocs\ff-ips\src\Controller\IpsController.php on line 77 and defined in [C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\ORM\Table.php, line 1356]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\ORM\Table::save() - CORE\src\ORM\Table.php, line 1356
+App\Controller\IpsController::request() - APP/Controller\IpsController.php, line 77
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 416
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-10-09 19:24:30 Error: Fatal Error (1): Call to undefined method stdClass::errors() in [C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\ORM\Table.php, line 1366]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-10-09 19:24:31 Error: [Cake\Error\FatalErrorException] Call to undefined method stdClass::errors()
+Request URL: /ips/request
+Stack Trace:
+#0 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp_5.6\\ht...', 1366)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-10-09 19:29:28 Error: Fatal Error (1): Call to undefined method App\Model\Entity\User::contain() in [C:\xampp_5.6\htdocs\ff-ips\src\Controller\UsersController.php, line 69]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-10-09 19:29:28 Error: [Cake\Error\FatalErrorException] Call to undefined method App\Model\Entity\User::contain()
+Request URL: /users/profile
+Stack Trace:
+#0 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp_5.6\\ht...', 69)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-10-09 19:29:40 Error: Fatal Error (1): Call to undefined method App\Model\Entity\User::contains() in [C:\xampp_5.6\htdocs\ff-ips\src\Controller\UsersController.php, line 69]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-10-09 19:29:40 Error: [Cake\Error\FatalErrorException] Call to undefined method App\Model\Entity\User::contains()
+Request URL: /users/profile
+Stack Trace:
+#0 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp_5.6\\ht...', 69)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-10-09 19:43:02 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::view() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'view',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /users/view/1
+Stack Trace:
+#0 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#2 C:\xampp_5.6\htdocs\ff-ips\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-10-09 21:53:35 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::view() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'view',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /users/view/1
+Stack Trace:
+#0 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#2 C:\xampp_5.6\htdocs\ff-ips\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-10-09 22:05:31 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::view() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'view',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /users/view/1
+Stack Trace:
+#0 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#2 C:\xampp_5.6\htdocs\ff-ips\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-10-09 22:35:50 Error: [Cake\Controller\Exception\MissingActionException] Action IpsController::addRange() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'IpsController',
+  'action' => 'addRange',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /ips/add-range
+Stack Trace:
+#0 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\IpsController))
+#2 C:\xampp_5.6\htdocs\ff-ips\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-10-09 23:04:04 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp_5.6\htdocs\ff-ips\src\Controller\IpsController.php, line 85]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-10-09 23:04:04 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /ips/add-range
+Stack Trace:
+#0 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp_5.6\\ht...', 85)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-10-09 23:04:40 Error: [Cake\Controller\Exception\MissingActionException] Action IpsController::addRange() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'IpsController',
+  'action' => 'addRange',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /ips/add-range
+Stack Trace:
+#0 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\IpsController))
+#2 C:\xampp_5.6\htdocs\ff-ips\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-10-09 23:06:51 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'net_a' cannot be null
+Request URL: /ips/add-range
+Stack Trace:
+#0 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Connection.php(270): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Query.php(174): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\ORM\Table.php(1530): Cake\Database\Query->execute()
+#6 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\ORM\Table.php(1446): Cake\ORM\Table->_insert(Object(App\Model\Entity\Ip), Array)
+#7 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\ORM\Table.php(1377): Cake\ORM\Table->_processSave(Object(App\Model\Entity\Ip), Object(ArrayObject))
+#8 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Connection.php(546): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#9 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\ORM\Table.php(1378): Cake\Database\Connection->transactional(Object(Closure))
+#10 C:\xampp_5.6\htdocs\ff-ips\src\Controller\IpsController.php(62): Cake\ORM\Table->save(Object(App\Model\Entity\Ip))
+#11 [internal function]: App\Controller\IpsController->addRange()
+#12 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Controller\Controller.php(416): call_user_func_array(Array, Array)
+#13 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#14 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\IpsController))
+#15 C:\xampp_5.6\htdocs\ff-ips\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#16 {main}
+
+
+2015-10-09 23:11:27 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '10-39-1-11' for key 'A_B_C_D_UNIQUE'
+Request URL: /ips/add-range
+Stack Trace:
+#0 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Connection.php(270): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Query.php(174): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\ORM\Table.php(1530): Cake\Database\Query->execute()
+#6 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\ORM\Table.php(1446): Cake\ORM\Table->_insert(Object(App\Model\Entity\Ip), Array)
+#7 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\ORM\Table.php(1377): Cake\ORM\Table->_processSave(Object(App\Model\Entity\Ip), Object(ArrayObject))
+#8 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Connection.php(546): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#9 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\ORM\Table.php(1378): Cake\Database\Connection->transactional(Object(Closure))
+#10 C:\xampp_5.6\htdocs\ff-ips\src\Controller\IpsController.php(62): Cake\ORM\Table->save(Object(App\Model\Entity\Ip))
+#11 [internal function]: App\Controller\IpsController->addRange()
+#12 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Controller\Controller.php(416): call_user_func_array(Array, Array)
+#13 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#14 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\IpsController))
+#15 C:\xampp_5.6\htdocs\ff-ips\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#16 {main}
+
+
+2015-10-10 11:33:50 Error: [Cake\Network\Exception\NotFoundException] Not Found
+Request URL: /ips?page=13
+Stack Trace:
+#0 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Controller\Controller.php(675): Cake\Controller\Component\PaginatorComponent->paginate(Object(App\Model\Table\IpsTable), Array)
+#1 C:\xampp_5.6\htdocs\ff-ips\src\Controller\IpsController.php(24): Cake\Controller\Controller->paginate(Object(App\Model\Table\IpsTable))
+#2 [internal function]: App\Controller\IpsController->index()
+#3 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Controller\Controller.php(416): call_user_func_array(Array, Array)
+#4 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\IpsController))
+#6 C:\xampp_5.6\htdocs\ff-ips\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2015-10-10 11:37:36 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '10.39.1.7' for key 'IP_UNIQUE'
+Request URL: /ips/add-range
+Stack Trace:
+#0 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Connection.php(270): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Query.php(174): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\ORM\Table.php(1530): Cake\Database\Query->execute()
+#6 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\ORM\Table.php(1446): Cake\ORM\Table->_insert(Object(App\Model\Entity\Ip), Array)
+#7 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\ORM\Table.php(1377): Cake\ORM\Table->_processSave(Object(App\Model\Entity\Ip), Object(ArrayObject))
+#8 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Connection.php(546): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#9 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\ORM\Table.php(1378): Cake\Database\Connection->transactional(Object(Closure))
+#10 C:\xampp_5.6\htdocs\ff-ips\src\Controller\IpsController.php(59): Cake\ORM\Table->save(Object(App\Model\Entity\Ip))
+#11 [internal function]: App\Controller\IpsController->addRange()
+#12 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Controller\Controller.php(416): call_user_func_array(Array, Array)
+#13 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#14 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\IpsController))
+#15 C:\xampp_5.6\htdocs\ff-ips\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#16 {main}
+
+
+2015-10-10 11:39:54 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '10.39.1.7' for key 'IP_UNIQUE'
+Request URL: /ips/add-range
+Stack Trace:
+#0 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Connection.php(270): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Query.php(174): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\ORM\Table.php(1530): Cake\Database\Query->execute()
+#6 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\ORM\Table.php(1446): Cake\ORM\Table->_insert(Object(App\Model\Entity\Ip), Array)
+#7 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\ORM\Table.php(1377): Cake\ORM\Table->_processSave(Object(App\Model\Entity\Ip), Object(ArrayObject))
+#8 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Connection.php(546): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#9 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\ORM\Table.php(1378): Cake\Database\Connection->transactional(Object(Closure))
+#10 C:\xampp_5.6\htdocs\ff-ips\src\Controller\IpsController.php(59): Cake\ORM\Table->save(Object(App\Model\Entity\Ip))
+#11 [internal function]: App\Controller\IpsController->addRange()
+#12 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Controller\Controller.php(416): call_user_func_array(Array, Array)
+#13 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#14 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\IpsController))
+#15 C:\xampp_5.6\htdocs\ff-ips\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#16 {main}
+
+
+2015-10-10 11:43:00 Error: [BadMethodCallException] Unknown method "validate"
+Request URL: /ips/add-range
+Stack Trace:
+#0 C:\xampp_5.6\htdocs\ff-ips\src\Controller\IpsController.php(59): Cake\ORM\Table->__call('validate', Array)
+#1 C:\xampp_5.6\htdocs\ff-ips\src\Controller\IpsController.php(59): App\Model\Table\IpsTable->validate(Object(App\Model\Entity\Ip))
+#2 [internal function]: App\Controller\IpsController->addRange()
+#3 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Controller\Controller.php(416): call_user_func_array(Array, Array)
+#4 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\IpsController))
+#6 C:\xampp_5.6\htdocs\ff-ips\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2015-10-10 11:43:55 Error: Fatal Error (1): Call to undefined method App\Model\Entity\Ip::validate() in [C:\xampp_5.6\htdocs\ff-ips\src\Controller\IpsController.php, line 59]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-10-10 11:43:56 Error: [Cake\Error\FatalErrorException] Call to undefined method App\Model\Entity\Ip::validate()
+Request URL: /ips/add-range
+Stack Trace:
+#0 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp_5.6\\ht...', 59)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-10-10 11:53:30 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '10.39.1.9' for key 'IP_UNIQUE'
+Request URL: /ips/add-range
+Stack Trace:
+#0 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Connection.php(270): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Query.php(174): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\ORM\Table.php(1530): Cake\Database\Query->execute()
+#6 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\ORM\Table.php(1446): Cake\ORM\Table->_insert(Object(App\Model\Entity\Ip), Array)
+#7 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\ORM\Table.php(1377): Cake\ORM\Table->_processSave(Object(App\Model\Entity\Ip), Object(ArrayObject))
+#8 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Connection.php(546): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#9 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\ORM\Table.php(1378): Cake\Database\Connection->transactional(Object(Closure))
+#10 C:\xampp_5.6\htdocs\ff-ips\src\Controller\IpsController.php(62): Cake\ORM\Table->save(Object(App\Model\Entity\Ip))
+#11 [internal function]: App\Controller\IpsController->addRange()
+#12 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Controller\Controller.php(416): call_user_func_array(Array, Array)
+#13 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#14 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\IpsController))
+#15 C:\xampp_5.6\htdocs\ff-ips\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#16 {main}
+
+
+2015-10-10 11:56:22 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '10.39.1.13' for key 'IP_UNIQUE'
+Request URL: /ips/add-range
+Stack Trace:
+#0 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Connection.php(270): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Query.php(174): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\ORM\Table.php(1530): Cake\Database\Query->execute()
+#6 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\ORM\Table.php(1446): Cake\ORM\Table->_insert(Object(App\Model\Entity\Ip), Array)
+#7 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\ORM\Table.php(1377): Cake\ORM\Table->_processSave(Object(App\Model\Entity\Ip), Object(ArrayObject))
+#8 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Connection.php(546): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#9 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\ORM\Table.php(1378): Cake\Database\Connection->transactional(Object(Closure))
+#10 C:\xampp_5.6\htdocs\ff-ips\src\Controller\IpsController.php(62): Cake\ORM\Table->save(Object(App\Model\Entity\Ip))
+#11 [internal function]: App\Controller\IpsController->addRange()
+#12 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Controller\Controller.php(416): call_user_func_array(Array, Array)
+#13 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#14 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\IpsController))
+#15 C:\xampp_5.6\htdocs\ff-ips\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#16 {main}
+
+
+2015-10-10 11:57:54 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '10.39.1.13' for key 'IP_UNIQUE'
+Request URL: /ips/add-range
+Stack Trace:
+#0 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Connection.php(270): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Query.php(174): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\ORM\Table.php(1530): Cake\Database\Query->execute()
+#6 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\ORM\Table.php(1446): Cake\ORM\Table->_insert(Object(App\Model\Entity\Ip), Array)
+#7 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\ORM\Table.php(1377): Cake\ORM\Table->_processSave(Object(App\Model\Entity\Ip), Object(ArrayObject))
+#8 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Connection.php(546): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#9 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\ORM\Table.php(1378): Cake\Database\Connection->transactional(Object(Closure))
+#10 C:\xampp_5.6\htdocs\ff-ips\src\Controller\IpsController.php(62): Cake\ORM\Table->save(Object(App\Model\Entity\Ip))
+#11 [internal function]: App\Controller\IpsController->addRange()
+#12 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Controller\Controller.php(416): call_user_func_array(Array, Array)
+#13 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#14 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\IpsController))
+#15 C:\xampp_5.6\htdocs\ff-ips\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#16 {main}
+
+
+2015-10-10 12:05:56 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '10.39.1.7' for key 'IP_UNIQUE'
+Request URL: /ips/add-range
+Stack Trace:
+#0 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Connection.php(270): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Query.php(174): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\ORM\Table.php(1530): Cake\Database\Query->execute()
+#6 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\ORM\Table.php(1446): Cake\ORM\Table->_insert(Object(App\Model\Entity\Ip), Array)
+#7 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\ORM\Table.php(1377): Cake\ORM\Table->_processSave(Object(App\Model\Entity\Ip), Object(ArrayObject))
+#8 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Connection.php(546): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#9 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\ORM\Table.php(1378): Cake\Database\Connection->transactional(Object(Closure))
+#10 C:\xampp_5.6\htdocs\ff-ips\src\Controller\IpsController.php(63): Cake\ORM\Table->save(Object(App\Model\Entity\Ip))
+#11 [internal function]: App\Controller\IpsController->addRange()
+#12 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Controller\Controller.php(416): call_user_func_array(Array, Array)
+#13 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#14 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\IpsController))
+#15 C:\xampp_5.6\htdocs\ff-ips\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#16 {main}
+
+
+2015-10-10 12:27:07 Error: Fatal Error (1): Class 'App\Controller\Validator' not found in [C:\xampp_5.6\htdocs\ff-ips\src\Controller\IpsController.php, line 60]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-10-10 12:27:07 Error: [Cake\Error\FatalErrorException] Class 'App\Controller\Validator' not found
+Request URL: /ips/add-range
+Stack Trace:
+#0 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'App\\Cont...', 'C:\\xampp_5.6\\ht...', 60)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-10-10 12:27:39 Warning: Warning (4096): Argument 1 passed to Cake\Validation\Validator::errors() must be of the type array, object given, called in C:\xampp_5.6\htdocs\ff-ips\src\Controller\IpsController.php on line 67 and defined in [C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Validation\Validator.php, line 93]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\Validation\Validator::errors() - CORE\src\Validation\Validator.php, line 93
+App\Controller\IpsController::addRange() - APP/Controller\IpsController.php, line 67
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 416
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-10-10 12:31:21 Warning: Warning (4096): Argument 1 passed to Cake\Validation\Validator::errors() must be of the type array, object given, called in C:\xampp_5.6\htdocs\ff-ips\src\Controller\IpsController.php on line 67 and defined in [C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Validation\Validator.php, line 93]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\Validation\Validator::errors() - CORE\src\Validation\Validator.php, line 93
+App\Controller\IpsController::addRange() - APP/Controller\IpsController.php, line 67
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 416
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-10-10 12:33:17 Error: [InvalidArgumentException] Unable to call method "validateUnique" in "table" provider for field "ip"
+Request URL: /ips/add-range
+Stack Trace:
+#0 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Validation\Validator.php(654): Cake\Validation\ValidationRule->process('10.39.1.7', Array, Array)
+#1 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Validation\Validator.php(134): Cake\Validation\Validator->_processRules('ip', Object(Cake\Validation\ValidationSet), Array, true)
+#2 C:\xampp_5.6\htdocs\ff-ips\src\Controller\IpsController.php(67): Cake\Validation\Validator->errors(Array)
+#3 [internal function]: App\Controller\IpsController->addRange()
+#4 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Controller\Controller.php(416): call_user_func_array(Array, Array)
+#5 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#6 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\IpsController))
+#7 C:\xampp_5.6\htdocs\ff-ips\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2015-10-10 12:48:58 Error: Fatal Error (1): Class 'App\Controller\FunctionsBuilder' not found in [C:\xampp_5.6\htdocs\ff-ips\src\Controller\IpsController.php, line 24]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-10-10 12:48:58 Error: [Cake\Error\FatalErrorException] Class 'App\Controller\FunctionsBuilder' not found
+Request URL: /ips?sort=ip&direction=desc
+Stack Trace:
+#0 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'App\\Cont...', 'C:\\xampp_5.6\\ht...', 24)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-10-10 13:49:36 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Expression\FunctionExpression.php, line 99]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\Database\Expression\FunctionExpression::add() - CORE\src\Database\Expression\FunctionExpression.php, line 99
+Cake\Database\Expression\QueryExpression::__construct() - CORE\src\Database\Expression\QueryExpression.php, line 69
+Cake\Database\Expression\FunctionExpression::__construct() - CORE\src\Database\Expression\FunctionExpression.php, line 65
+Cake\Database\FunctionsBuilder::_build() - CORE\src\Database\FunctionsBuilder.php, line 38
+Cake\Database\FunctionsBuilder::__call() - CORE\src\Database\FunctionsBuilder.php, line 267
+Cake\Database\FunctionsBuilder::inet_aton() - APP/Model\Entity\Ip.php, line 35
+App\Model\Entity\Ip::_getIpAddress() - APP/Model\Entity\Ip.php, line 35
+Cake\ORM\Entity::get() - CORE\src\Datasource\EntityTrait.php, line 283
+Cake\ORM\Entity::__get() - CORE\src\Datasource\EntityTrait.php, line 126
+include - APP/Template\Ips\index.ctp, line 21
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 970
+Cake\View\View::_render() - CORE\src\View\View.php, line 930
+Cake\View\View::render() - CORE\src\View\View.php, line 578
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 598
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-10-10 13:49:36 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Expression\FunctionExpression.php, line 99]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\Database\Expression\FunctionExpression::add() - CORE\src\Database\Expression\FunctionExpression.php, line 99
+Cake\Database\Expression\QueryExpression::__construct() - CORE\src\Database\Expression\QueryExpression.php, line 69
+Cake\Database\Expression\FunctionExpression::__construct() - CORE\src\Database\Expression\FunctionExpression.php, line 65
+Cake\Database\FunctionsBuilder::_build() - CORE\src\Database\FunctionsBuilder.php, line 38
+Cake\Database\FunctionsBuilder::__call() - CORE\src\Database\FunctionsBuilder.php, line 267
+Cake\Database\FunctionsBuilder::inet_aton() - APP/Model\Entity\Ip.php, line 35
+App\Model\Entity\Ip::_getIpAddress() - APP/Model\Entity\Ip.php, line 35
+Cake\ORM\Entity::get() - CORE\src\Datasource\EntityTrait.php, line 283
+Cake\ORM\Entity::__get() - CORE\src\Datasource\EntityTrait.php, line 126
+include - APP/Template\Ips\index.ctp, line 21
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 970
+Cake\View\View::_render() - CORE\src\View\View.php, line 930
+Cake\View\View::render() - CORE\src\View\View.php, line 578
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 598
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-10-10 13:49:36 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Expression\FunctionExpression.php, line 99]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\Database\Expression\FunctionExpression::add() - CORE\src\Database\Expression\FunctionExpression.php, line 99
+Cake\Database\Expression\QueryExpression::__construct() - CORE\src\Database\Expression\QueryExpression.php, line 69
+Cake\Database\Expression\FunctionExpression::__construct() - CORE\src\Database\Expression\FunctionExpression.php, line 65
+Cake\Database\FunctionsBuilder::_build() - CORE\src\Database\FunctionsBuilder.php, line 38
+Cake\Database\FunctionsBuilder::__call() - CORE\src\Database\FunctionsBuilder.php, line 267
+Cake\Database\FunctionsBuilder::inet_aton() - APP/Model\Entity\Ip.php, line 35
+App\Model\Entity\Ip::_getIpAddress() - APP/Model\Entity\Ip.php, line 35
+Cake\ORM\Entity::get() - CORE\src\Datasource\EntityTrait.php, line 283
+Cake\ORM\Entity::__get() - CORE\src\Datasource\EntityTrait.php, line 126
+include - APP/Template\Ips\index.ctp, line 21
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 970
+Cake\View\View::_render() - CORE\src\View\View.php, line 930
+Cake\View\View::render() - CORE\src\View\View.php, line 578
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 598
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-10-10 13:49:36 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Expression\FunctionExpression.php, line 99]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\Database\Expression\FunctionExpression::add() - CORE\src\Database\Expression\FunctionExpression.php, line 99
+Cake\Database\Expression\QueryExpression::__construct() - CORE\src\Database\Expression\QueryExpression.php, line 69
+Cake\Database\Expression\FunctionExpression::__construct() - CORE\src\Database\Expression\FunctionExpression.php, line 65
+Cake\Database\FunctionsBuilder::_build() - CORE\src\Database\FunctionsBuilder.php, line 38
+Cake\Database\FunctionsBuilder::__call() - CORE\src\Database\FunctionsBuilder.php, line 267
+Cake\Database\FunctionsBuilder::inet_aton() - APP/Model\Entity\Ip.php, line 35
+App\Model\Entity\Ip::_getIpAddress() - APP/Model\Entity\Ip.php, line 35
+Cake\ORM\Entity::get() - CORE\src\Datasource\EntityTrait.php, line 283
+Cake\ORM\Entity::__get() - CORE\src\Datasource\EntityTrait.php, line 126
+include - APP/Template\Ips\index.ctp, line 21
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 970
+Cake\View\View::_render() - CORE\src\View\View.php, line 930
+Cake\View\View::render() - CORE\src\View\View.php, line 578
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 598
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-10-10 13:49:36 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Expression\FunctionExpression.php, line 99]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\Database\Expression\FunctionExpression::add() - CORE\src\Database\Expression\FunctionExpression.php, line 99
+Cake\Database\Expression\QueryExpression::__construct() - CORE\src\Database\Expression\QueryExpression.php, line 69
+Cake\Database\Expression\FunctionExpression::__construct() - CORE\src\Database\Expression\FunctionExpression.php, line 65
+Cake\Database\FunctionsBuilder::_build() - CORE\src\Database\FunctionsBuilder.php, line 38
+Cake\Database\FunctionsBuilder::__call() - CORE\src\Database\FunctionsBuilder.php, line 267
+Cake\Database\FunctionsBuilder::inet_aton() - APP/Model\Entity\Ip.php, line 35
+App\Model\Entity\Ip::_getIpAddress() - APP/Model\Entity\Ip.php, line 35
+Cake\ORM\Entity::get() - CORE\src\Datasource\EntityTrait.php, line 283
+Cake\ORM\Entity::__get() - CORE\src\Datasource\EntityTrait.php, line 126
+include - APP/Template\Ips\index.ctp, line 21
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 970
+Cake\View\View::_render() - CORE\src\View\View.php, line 930
+Cake\View\View::render() - CORE\src\View\View.php, line 578
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 598
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-10-10 13:49:36 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Expression\FunctionExpression.php, line 99]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\Database\Expression\FunctionExpression::add() - CORE\src\Database\Expression\FunctionExpression.php, line 99
+Cake\Database\Expression\QueryExpression::__construct() - CORE\src\Database\Expression\QueryExpression.php, line 69
+Cake\Database\Expression\FunctionExpression::__construct() - CORE\src\Database\Expression\FunctionExpression.php, line 65
+Cake\Database\FunctionsBuilder::_build() - CORE\src\Database\FunctionsBuilder.php, line 38
+Cake\Database\FunctionsBuilder::__call() - CORE\src\Database\FunctionsBuilder.php, line 267
+Cake\Database\FunctionsBuilder::inet_aton() - APP/Model\Entity\Ip.php, line 35
+App\Model\Entity\Ip::_getIpAddress() - APP/Model\Entity\Ip.php, line 35
+Cake\ORM\Entity::get() - CORE\src\Datasource\EntityTrait.php, line 283
+Cake\ORM\Entity::__get() - CORE\src\Datasource\EntityTrait.php, line 126
+include - APP/Template\Ips\index.ctp, line 21
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 970
+Cake\View\View::_render() - CORE\src\View\View.php, line 930
+Cake\View\View::render() - CORE\src\View\View.php, line 578
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 598
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-10-10 13:49:36 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Expression\FunctionExpression.php, line 99]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\Database\Expression\FunctionExpression::add() - CORE\src\Database\Expression\FunctionExpression.php, line 99
+Cake\Database\Expression\QueryExpression::__construct() - CORE\src\Database\Expression\QueryExpression.php, line 69
+Cake\Database\Expression\FunctionExpression::__construct() - CORE\src\Database\Expression\FunctionExpression.php, line 65
+Cake\Database\FunctionsBuilder::_build() - CORE\src\Database\FunctionsBuilder.php, line 38
+Cake\Database\FunctionsBuilder::__call() - CORE\src\Database\FunctionsBuilder.php, line 267
+Cake\Database\FunctionsBuilder::inet_aton() - APP/Model\Entity\Ip.php, line 35
+App\Model\Entity\Ip::_getIpAddress() - APP/Model\Entity\Ip.php, line 35
+Cake\ORM\Entity::get() - CORE\src\Datasource\EntityTrait.php, line 283
+Cake\ORM\Entity::__get() - CORE\src\Datasource\EntityTrait.php, line 126
+include - APP/Template\Ips\index.ctp, line 21
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 970
+Cake\View\View::_render() - CORE\src\View\View.php, line 930
+Cake\View\View::render() - CORE\src\View\View.php, line 578
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 598
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-10-10 13:49:36 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Expression\FunctionExpression.php, line 99]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\Database\Expression\FunctionExpression::add() - CORE\src\Database\Expression\FunctionExpression.php, line 99
+Cake\Database\Expression\QueryExpression::__construct() - CORE\src\Database\Expression\QueryExpression.php, line 69
+Cake\Database\Expression\FunctionExpression::__construct() - CORE\src\Database\Expression\FunctionExpression.php, line 65
+Cake\Database\FunctionsBuilder::_build() - CORE\src\Database\FunctionsBuilder.php, line 38
+Cake\Database\FunctionsBuilder::__call() - CORE\src\Database\FunctionsBuilder.php, line 267
+Cake\Database\FunctionsBuilder::inet_aton() - APP/Model\Entity\Ip.php, line 35
+App\Model\Entity\Ip::_getIpAddress() - APP/Model\Entity\Ip.php, line 35
+Cake\ORM\Entity::get() - CORE\src\Datasource\EntityTrait.php, line 283
+Cake\ORM\Entity::__get() - CORE\src\Datasource\EntityTrait.php, line 126
+include - APP/Template\Ips\index.ctp, line 21
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 970
+Cake\View\View::_render() - CORE\src\View\View.php, line 930
+Cake\View\View::render() - CORE\src\View\View.php, line 578
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 598
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-10-10 13:49:36 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Expression\FunctionExpression.php, line 99]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\Database\Expression\FunctionExpression::add() - CORE\src\Database\Expression\FunctionExpression.php, line 99
+Cake\Database\Expression\QueryExpression::__construct() - CORE\src\Database\Expression\QueryExpression.php, line 69
+Cake\Database\Expression\FunctionExpression::__construct() - CORE\src\Database\Expression\FunctionExpression.php, line 65
+Cake\Database\FunctionsBuilder::_build() - CORE\src\Database\FunctionsBuilder.php, line 38
+Cake\Database\FunctionsBuilder::__call() - CORE\src\Database\FunctionsBuilder.php, line 267
+Cake\Database\FunctionsBuilder::inet_aton() - APP/Model\Entity\Ip.php, line 35
+App\Model\Entity\Ip::_getIpAddress() - APP/Model\Entity\Ip.php, line 35
+Cake\ORM\Entity::get() - CORE\src\Datasource\EntityTrait.php, line 283
+Cake\ORM\Entity::__get() - CORE\src\Datasource\EntityTrait.php, line 126
+include - APP/Template\Ips\index.ctp, line 21
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 970
+Cake\View\View::_render() - CORE\src\View\View.php, line 930
+Cake\View\View::render() - CORE\src\View\View.php, line 578
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 598
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-10-10 14:02:05 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ip_address' in 'order clause'
+Request URL: /ips?sort=ip_address&direction=asc
+Stack Trace:
+#0 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Connection.php(270): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Query.php(174): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\ORM\Query.php(871): Cake\Database\Query->execute()
+#6 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(216): Cake\ORM\Query->_execute()
+#7 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\ORM\Query.php(822): Cake\ORM\Query->_all()
+#8 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php(172): Cake\ORM\Query->all()
+#9 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Controller\Controller.php(675): Cake\Controller\Component\PaginatorComponent->paginate(Object(App\Model\Table\IpsTable), Array)
+#10 C:\xampp_5.6\htdocs\ff-ips\src\Controller\IpsController.php(31): Cake\Controller\Controller->paginate(Object(App\Model\Table\IpsTable))
+#11 [internal function]: App\Controller\IpsController->index()
+#12 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Controller\Controller.php(416): call_user_func_array(Array, Array)
+#13 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#14 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\IpsController))
+#15 C:\xampp_5.6\htdocs\ff-ips\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#16 {main}
+
+
+2015-10-10 14:17:04 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ip_address' in 'order clause'
+Request URL: /ips?sort=ip_address&direction=asc
+Stack Trace:
+#0 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Connection.php(270): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Database\Query.php(174): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\ORM\Query.php(871): Cake\Database\Query->execute()
+#6 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(216): Cake\ORM\Query->_execute()
+#7 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\ORM\Query.php(822): Cake\ORM\Query->_all()
+#8 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php(172): Cake\ORM\Query->all()
+#9 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Controller\Controller.php(675): Cake\Controller\Component\PaginatorComponent->paginate(Object(App\Model\Table\IpsTable), Array)
+#10 C:\xampp_5.6\htdocs\ff-ips\src\Controller\IpsController.php(31): Cake\Controller\Controller->paginate(Object(App\Model\Table\IpsTable))
+#11 [internal function]: App\Controller\IpsController->index()
+#12 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Controller\Controller.php(416): call_user_func_array(Array, Array)
+#13 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#14 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\IpsController))
+#15 C:\xampp_5.6\htdocs\ff-ips\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#16 {main}
+
+
+2015-10-11 08:34:11 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::view() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'view',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /users/view/1
+Stack Trace:
+#0 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#2 C:\xampp_5.6\htdocs\ff-ips\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-10-12 13:52:18 Error: Fatal Error (1): Class 'App\Controller\DefaultPasswordHasher' not found in [C:\xampp_5.6\htdocs\ff-ips\src\Controller\UsersController.php, line 58]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-10-12 13:52:19 Error: [Cake\Error\FatalErrorException] Class 'App\Controller\DefaultPasswordHasher' not found
+Request URL: /users/login
+Stack Trace:
+#0 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'App\\Cont...', 'C:\\xampp_5.6\\ht...', 58)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-10-12 18:49:30 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO) in [C:\xampp_5.6\htdocs\ff-ips\src\Template\Ips\edit.ctp, line 6]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-10-12 18:49:30 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'echo' (T_ECHO)
+Request URL: /ips/edit/293
+Stack Trace:
+#0 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp_5.6\\ht...', 6)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-10-12 19:26:59 Error: [Cake\Controller\Exception\MissingActionException] Action IpsController::users() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'IpsController',
+  'action' => 'users',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /ips/users
+Stack Trace:
+#0 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\IpsController))
+#2 C:\xampp_5.6\htdocs\ff-ips\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-10-12 19:57:38 Error: [Cake\View\Exception\MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => NULL,
+)
+Request URL: /ips
+Stack Trace:
+#0 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(91): Cake\View\HelperRegistry->_throwMissingClassError('Auth', NULL)
+#1 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\View\HelperRegistry.php(66): Cake\Core\ObjectRegistry->load('Auth')
+#2 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\View\View.php(866): Cake\View\HelperRegistry->__isset('Auth')
+#3 C:\xampp_5.6\htdocs\ff-ips\src\Template\Layout\default.ctp(52): Cake\View\View->__get('Auth')
+#4 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\View\View.php(970): include('C:\\xampp_5.6\\ht...')
+#5 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\View\View.php(930): Cake\View\View->_evaluate('C:\\xampp_5.6\\ht...', Array)
+#6 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\View\View.php(624): Cake\View\View->_render('C:\\xampp_5.6\\ht...')
+#7 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\View\View.php(583): Cake\View\View->renderLayout('', 'default')
+#8 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Controller\Controller.php(598): Cake\View\View->render(NULL, NULL)
+#9 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#10 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\IpsController))
+#11 C:\xampp_5.6\htdocs\ff-ips\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#12 {main}
+
+
+2015-10-12 19:58:23 Error: Fatal Error (1): Call to a member function read() on null in [C:\xampp_5.6\htdocs\ff-ips\src\Template\Layout\default.ctp, line 52]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-10-12 19:58:23 Error: [Cake\Error\FatalErrorException] Call to a member function read() on null
+Request URL: /ips
+Stack Trace:
+#0 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp_5.6\\ht...', 52)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-10-12 19:58:34 Error: Fatal Error (1): Call to a member function read() on null in [C:\xampp_5.6\htdocs\ff-ips\src\Template\Layout\default.ctp, line 52]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-10-12 19:58:34 Error: [Cake\Error\FatalErrorException] Call to a member function read() on null
+Request URL: /ips
+Stack Trace:
+#0 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp_5.6\\ht...', 52)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-10-14 16:53:03 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::edit() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'edit',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /users/edit/1
+Stack Trace:
+#0 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#2 C:\xampp_5.6\htdocs\ff-ips\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-10-14 17:46:06 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::delete() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'delete',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /users/delete/2
+Stack Trace:
+#0 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#2 C:\xampp_5.6\htdocs\ff-ips\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-10-15 17:15:06 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::resetPassword() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'resetPassword',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /users/reset-password/1
+Stack Trace:
+#0 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp_5.6\htdocs\ff-ips\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#2 C:\xampp_5.6\htdocs\ff-ips\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
