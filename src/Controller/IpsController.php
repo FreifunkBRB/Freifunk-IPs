@@ -178,6 +178,8 @@ class IpsController extends AppController
 		}
 		$ip->user_id = null;
 		$ip->description = null;
+		$ip->lat = null;
+		$ip->lon = null;
 		if ($this->Ips->save($ip)) {
             $this->Flash->success(__('The IP has been released.'));
         } else {
