@@ -13,7 +13,7 @@
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
 
-$cakeDescription = 'CakePHP: the rapid development php framework';
+$cakeDescription = 'freifunk-brb.de';
 ?>
 <!DOCTYPE html>
 <html>
@@ -25,12 +25,22 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
         <?= $this->fetch('title') ?>
     </title>
     <?= $this->Html->meta('icon') ?>
+     <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.5/leaflet.css" />
+    <style>
+      .map {
+        height: 400px;
+        width: 100%;
+      }
+    </style>
 	<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">-->
     <?= $this->Html->css('styles.min.css') ?>
     <!--<?= $this->Html->css('cake.css') ?>-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <?= $this->fetch('meta') ?>
+	<script src="http://cdn.leafletjs.com/leaflet-0.7.5/leaflet.js"></script>
+	<?= $this->Html->script('leaflet.fullscreen/Control.Fullscreen'); ?>
+	<?= $this->Html->css('../js/leaflet.fullscreen/Control.Fullscreen.css') ?>
+	<?= $this->fetch('meta') ?>
     <?= $this->fetch('css') ?>
     <?= $this->fetch('script') ?>
 </head>
@@ -45,7 +55,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">freifunk-brb.de</a>
+          <a class="navbar-brand" href="#">Freifunk Brandenburg an der Havel</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
@@ -58,7 +68,10 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
           	<?php endif; ?>
             
             <li><?= $this->Html->link('logout', ['controller' => 'Users', 'action' => 'logout']) ?></li>
-            <?php endif ?>
+            <?php else: ?>
+            	<li><?= $this->Html->link('login', ['controller' => 'Users', 'action' => 'login']) ?></li>
+            <?php endif; ?>	
+            <li><?= $this->Html->link(__('map'), ['controller' => 'Ips', 'action' => 'mapView']) ?></li>
             
           </ul>
         </div><!--/.nav-collapse -->

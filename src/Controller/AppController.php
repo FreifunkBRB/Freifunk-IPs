@@ -55,7 +55,7 @@ class AppController extends Controller
             ]
         ]);
     }
-
+	
     /**
      * Before render callback.
      *

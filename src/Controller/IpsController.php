@@ -2,9 +2,11 @@
 namespace App\Controller;
 
 use App\Controller\AppController;
+use Cake\Event\Event;
 use Cake\ORM\TableRegistry;
 use Cake\Validation\Validator;
 use Cake\Database\FunctionsBuilder;
+
 /**
  * Ips Controller
  *
@@ -12,6 +14,10 @@ use Cake\Database\FunctionsBuilder;
  */
 class IpsController extends AppController
 {
+	public function beforeFilter(Event $event) {
+		$this->Auth->allow(['mapView']);
+		parent::beforeFilter($event);
+	}
 	
 	public function isAuthorized($user)
 	{
@@ -23,6 +29,7 @@ class IpsController extends AppController
 								$action,
 								['request', 'release', 'edit']
 							); 
+			default:		return in_array($action, ['mapView']);
 		}
 	    return parent::isAuthorized($user);
 	}
@@ -33,6 +40,30 @@ class IpsController extends AppController
      * @return void
      */
     public function index()
+    {
+	
+        $this->paginate = [
+            'contain' => ['Users'],
+            'order' => [(new FunctionsBuilder())->inet_aton(['ip' => 'literal'])]
+        ];
+		$query = $this->Ips->find();
+		if ($this->request->query('sort') === 'ip') {
+		    $method = 'orderAsc';
+		    if ($this->request->query('direction') === 'desc') {
+		        $method = 'orderDesc';
+		    }
+		    $query->{$method}($query->func()->inet_aton(['ip' => 'literal']));
+		}
+        $this->set('ips', $this->paginate($query));
+        $this->set('_serialize', ['ips']);
+    }
+	
+	/**
+     * Index method
+     *
+     * @return void
+     */
+    public function mapView()
     {
 	
         $this->paginate = [

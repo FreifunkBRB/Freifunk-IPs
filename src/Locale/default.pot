@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2015-10-15 18:44+0000\n"
+"POT-Creation-Date: 2015-10-18 12:33+0000\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -14,55 +14,55 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#: Controller/IpsController.php:86
+#: Controller/IpsController.php:117
 msgid " could not be added to the pool. Maybe it already exists?"
 msgstr ""
 
-#: Controller/IpsController.php:93
+#: Controller/IpsController.php:124
 msgid "The IPs have been saved."
 msgstr ""
 
-#: Controller/IpsController.php:117
+#: Controller/IpsController.php:148
 msgid "Your maximum amount of IPs has been reached. Please contact your local community."
 msgstr ""
 
-#: Controller/IpsController.php:123
+#: Controller/IpsController.php:154
 msgid "There are currently no IPs available"
 msgstr ""
 
-#: Controller/IpsController.php:128
+#: Controller/IpsController.php:159
 msgid "The ip has been saved."
 msgstr ""
 
-#: Controller/IpsController.php:130
+#: Controller/IpsController.php:161
 msgid "The ip could not be saved. Please, try again."
 msgstr ""
 
-#: Controller/IpsController.php:145
+#: Controller/IpsController.php:176
 msgid "The IP is not assigned to you right now and therefor cannot be released."
 msgstr ""
 
-#: Controller/IpsController.php:151
+#: Controller/IpsController.php:182
 msgid "The IP has been released."
 msgstr ""
 
-#: Controller/IpsController.php:153
+#: Controller/IpsController.php:184
 msgid "The IP could not be released. Please, try again."
 msgstr ""
 
-#: Controller/IpsController.php:174
+#: Controller/IpsController.php:205
 msgid "The IP has been saved."
 msgstr ""
 
-#: Controller/IpsController.php:177
+#: Controller/IpsController.php:208
 msgid "The IP could not be saved. Please, try again."
 msgstr ""
 
-#: Controller/IpsController.php:196
+#: Controller/IpsController.php:227
 msgid "The ip has been deleted."
 msgstr ""
 
-#: Controller/IpsController.php:198
+#: Controller/IpsController.php:229
 msgid "The ip could not be deleted. Please, try again."
 msgstr ""
 
@@ -127,7 +127,7 @@ msgid "to"
 msgstr ""
 
 #: Template/Ips/add_range.ctp:24
-#: Template/Ips/edit.ctp:9
+#: Template/Ips/edit.ctp:14
 #: Template/Users/add.ctp:18
 #: Template/Users/edit.ctp:17
 #: Template/Users/edit_profile.ctp:14
@@ -213,6 +213,14 @@ msgstr ""
 msgid "next"
 msgstr ""
 
+#: Template/Ips/map_view.ctp:1
+msgid "Map View"
+msgstr ""
+
+#: Template/Ips/map_view.ctp:2
+msgid "See access points all over the city"
+msgstr ""
+
 #: Template/Ips/view.ctp:4
 msgid "Edit Ip"
 msgstr ""
@@ -271,8 +279,12 @@ msgstr ""
 msgid "Net D"
 msgstr ""
 
-#: Template/Layout/default.ctp:54
+#: Template/Layout/default.ctp:64
 msgid "Your profile"
+msgstr ""
+
+#: Template/Layout/default.ctp:74
+msgid "map"
 msgstr ""
 
 #: Template/Users/add.ctp:1
