@@ -14,8 +14,14 @@ use Cake\Database\FunctionsBuilder;
  */
 class IpsController extends AppController
 {
+	public function initialize()
+    {
+        parent::initialize();
+        $this->loadComponent('RequestHandler');
+    }
+	
 	public function beforeFilter(Event $event) {
-		$this->Auth->allow(['mapView']);
+		$this->Auth->allow(['mapView', 'nodesJson']);
 		parent::beforeFilter($event);
 	}
 	
@@ -64,13 +70,10 @@ class IpsController extends AppController
      * @return void
      */
     public function mapView()
-    {
-	
-        $this->paginate = [
-            'contain' => ['Users'],
-            'order' => [(new FunctionsBuilder())->inet_aton(['ip' => 'literal'])]
-        ];
+    {	
 		$query = $this->Ips->find();
+		$query->contain(['Users' => ['fields' => ['name']]]);
+		$query->where('user_id IS NOT NULL');
 		if ($this->request->query('sort') === 'ip') {
 		    $method = 'orderAsc';
 		    if ($this->request->query('direction') === 'desc') {
@@ -78,11 +81,12 @@ class IpsController extends AppController
 		    }
 		    $query->{$method}($query->func()->inet_aton(['ip' => 'literal']));
 		}
-        $this->set('ips', $this->paginate($query));
-        $this->set('_serialize', ['ips']);
+		$ips = $query;
+        $this->set('ips', $ips);
+        $this->set('_serialize', true);
     }
 
-    /**
+	 /**
      * View method
      *
      * @param string|null $id Ip id.

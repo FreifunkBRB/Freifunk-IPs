@@ -45,3 +45,5 @@ tmp/cache/models/*
 *.log
 logs/*
 tmp/cache/models/myapp_cake_model_debug_kit_panels
+*.log
+*.log

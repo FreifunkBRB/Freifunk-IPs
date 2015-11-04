@@ -30,7 +30,9 @@
 			<?php endif; ?>
 
 		function onMapClick(e) {
-			map.removeLayer(circle);
+			if (typeof circle != "undefined") {
+				map.removeLayer(circle);
+			}
 			$('#lat').val(e.latlng.lat);
 		    $('#lon').val(e.latlng.lng);
 		    circle = L.circle(e.latlng, 50, {
